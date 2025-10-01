@@ -1,0 +1,2 @@
+source X:/Week-09-Microcontroller-applications/LabLED/build/bootloader/gdbinit/symbols
+source X:/Week-09-Microcontroller-applications/LabLED/build/bootloader/gdbinit/connect
