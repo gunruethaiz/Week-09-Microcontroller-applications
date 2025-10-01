@@ -1,0 +1,73 @@
+# ESP32/ESP-IDF typical .gitignore
+# Build artifacts
+LabLED/build/
+build/
+*.elf
+*.bin
+*.map
+*.log
+*.pyc
+*.pyo
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.o
+*.obj
+*.d
+*.a
+*.lib
+*.exe
+*.out
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build.ninja
+
+# VS Code
+.vscode/
+
+# PowerShell script outputs
+Helper-files/*.bak
+Helper-files/*.tmp
+
+# Diagrams (rendered)
+images/
+
+# PlantUML/Graphviz temp
+*.svg
+*.png
+
+# Python
+__pycache__/
+
+# Misc
+*.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.sock
+
+# Ignore environment configs
+LabLED/sdkconfig
+LabLED/config.env
+
+# Ignore auto-generated files
+LabLED/partition-table-flash_args
+LabLED/flash_*
+LabLED/app-flash_args
+LabLED/bootloader-flash_args
+LabLED/project_description.json
+LabLED/flasher_args.json
+LabLED/kconfigs*
+LabLED/ldgen_libraries*
+LabLED/x509_crt_bundle.S
+LabLED/bootloader/
+LabLED/bootloader-prefix/
+
+# Notebook checkpoints
+*.ipynb_checkpoints
